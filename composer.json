@@ -1,0 +1,21 @@
+{
+  "name": "evandroaugusto/db-cache",
+  "description": "A Cache service to get/set content from cache table",
+  "type": "library",
+  "version": "0.1",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Evandro Oliveira",
+      "email": "evandro@siriusprime.com.br"
+    }
+  ],
+  "require": {
+    "php": "^7.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "evandroaugusto\\DBCache\\": "src"
+    }
+  }
+}
